@@ -2,6 +2,28 @@
 
 This is a simple readme file with some resources.
 
+## How to code as a team
+
+Each team member on their computer should have a copy of the code cloned onto it.
+Any new features will be made on a branch to keep things separate from each other.
+
+A branch is a separate version of the code that you can work on separate from the main version.
+As new features are added, the original code is left unchanged.  We can even push code with
+the branches onto Github.
+
+After the code has been tested thoroughly and no issues are there, we can merge the code locally
+and then push the locally tested code up to Github.
+
+First we want to make sure that any features that are on Github have been fetched and merged locally.
+    `git checkout master`
+    `git fetch origin`
+    `git merge origin/master`
+Then we want to merge the branch to the local master.
+    `git merge <branch-name>`
+Build the code and test it again.
+
+Then we can push it to Github using the push tool.
+
 ## How to update when the SDK releases a new version.
 
 First check out to see if the roadrunner quickstart has updated to the new version.
