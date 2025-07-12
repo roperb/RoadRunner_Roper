@@ -21,6 +21,7 @@
 
 package org.firstinspires.ftc.teamcode.examples.EOCVExamplesOfficial;
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
@@ -38,6 +39,7 @@ import org.openftc.easyopencv.OpenCvPipeline;
  * In this sample, we demonstrate how to use the advanced features provided
  * by the {@link OpenCvInternalCamera} interface
  */
+@Disabled
 @TeleOp
 public class InternalCamera1AdvancedFeaturesExample extends LinearOpMode
 {

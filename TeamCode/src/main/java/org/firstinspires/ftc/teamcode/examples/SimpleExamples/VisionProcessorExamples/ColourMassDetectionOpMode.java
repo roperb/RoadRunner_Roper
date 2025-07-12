@@ -3,6 +3,7 @@ package org.firstinspires.ftc.teamcode.examples.SimpleExamples.VisionProcessorEx
 import com.acmerobotics.dashboard.FtcDashboard;
 import com.acmerobotics.dashboard.telemetry.MultipleTelemetry;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 
 import org.firstinspires.ftc.robotcore.external.hardware.camera.WebcamName;
@@ -10,7 +11,7 @@ import org.firstinspires.ftc.teamcode.examples.SimpleExamples.VisionProcessorExa
 import org.firstinspires.ftc.vision.VisionPortal;
 import org.opencv.core.Scalar;
 
-//@Disabled // remove this line to have this show up on your robot
+@Disabled // remove this line to have this show up on your robot
 @Autonomous
 public class ColourMassDetectionOpMode extends OpMode {
 	private VisionPortal visionPortal;

@@ -1,5 +1,8 @@
 package org.firstinspires.ftc.teamcode.examples.limelight;
 
+import com.acmerobotics.dashboard.config.Config;
+
+@Config
 public class LLConstants {
     public static double kTurn = 0;
     public static double START_X = 0;

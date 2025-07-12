@@ -3,6 +3,7 @@ package org.firstinspires.ftc.teamcode.examples.SimpleExamples.VisionProcessorEx
 
 import com.acmerobotics.dashboard.FtcDashboard;
 import com.acmerobotics.dashboard.telemetry.MultipleTelemetry;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
@@ -17,6 +18,7 @@ import org.firstinspires.ftc.vision.VisionPortal;
  * Translated example to an Iterative OpMode
  */
 
+@Disabled
 @TeleOp(name="FtcDashboard Basic Camera OpMode", group="Simple Examples")
 public class FtcDashboard_Camera_Iterative_Basic extends OpMode {
     FtcDashboard_BasicProcessor processor = new FtcDashboard_BasicProcessor();

@@ -16,7 +16,7 @@ import com.qualcomm.robotcore.util.Range;
  */
 
 @TeleOp(name="Wheel Test", group="Simple Examples")
-//@Disabled
+@Disabled
 public class WheelTest extends OpMode
 {
     // Declare OpMode members.

@@ -4,6 +4,7 @@ package org.firstinspires.ftc.teamcode.examples.SimpleExamples.VisionProcessorEx
 import com.acmerobotics.dashboard.FtcDashboard;
 import com.acmerobotics.dashboard.config.Config;
 import com.acmerobotics.dashboard.telemetry.MultipleTelemetry;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
@@ -18,6 +19,7 @@ import org.opencv.core.Scalar;
  * https://www.youtube.com/watch?v=vJhmmyvNqC0
  */
 
+@Disabled
 @Config
 @TeleOp(name="FtcDashboard PeopleMasking Camera Opmode", group="Simple Examples")
 public class FtcDashboard_PeopleMasking_Camera_OpMode extends OpMode {

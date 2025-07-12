@@ -2,6 +2,7 @@ package org.firstinspires.ftc.teamcode.examples.SimpleExamples.VisionProcessorEx
 
 import com.acmerobotics.dashboard.FtcDashboard;
 import com.acmerobotics.dashboard.telemetry.MultipleTelemetry;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
@@ -9,6 +10,7 @@ import org.firstinspires.ftc.robotcore.external.hardware.camera.WebcamName;
 import org.firstinspires.ftc.teamcode.examples.SimpleExamples.VisionProcessorExamples.Processors.EmptyVisionProcessor;
 import org.firstinspires.ftc.vision.VisionPortal;
 
+@Disabled
 @TeleOp(name = "Empty Vision Dashboard Processor OpMode", group = "Simple Examples")
 public class EmptyVisionProcessorOpMode extends OpMode {
 

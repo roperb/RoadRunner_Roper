@@ -2,6 +2,7 @@ package org.firstinspires.ftc.teamcode.examples.SimpleExamples;
 
 import com.acmerobotics.dashboard.FtcDashboard;
 import com.acmerobotics.dashboard.telemetry.MultipleTelemetry;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.util.ElapsedTime;
@@ -17,7 +18,7 @@ import org.openftc.easyopencv.OpenCvWebcam;
  * Demonstrates an empty iterative OpMode
  */
 @TeleOp(name = "Webcam Viewer Dashboard", group = "Simple Examples")
-//@Disabled
+@Disabled
 public class EOCVWebcamViewerDashboard extends OpMode {
   OpenCvWebcam webcam;
   ElapsedTime timer;
