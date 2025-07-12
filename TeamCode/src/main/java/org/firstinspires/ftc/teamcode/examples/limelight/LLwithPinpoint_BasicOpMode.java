@@ -23,7 +23,7 @@ import java.util.List;
  * The goal of this code is to use the limelight and the pinpoint device to look at
  *
  */
-@TeleOp
+@TeleOp (name = "Limelight and Pinpoint Info OpMode")
 public class LLwithPinpoint_BasicOpMode extends OpMode {
 
     public Limelight3A limelight = null;

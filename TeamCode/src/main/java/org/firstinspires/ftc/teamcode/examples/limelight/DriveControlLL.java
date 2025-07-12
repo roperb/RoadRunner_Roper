@@ -16,6 +16,7 @@ import com.qualcomm.hardware.limelightvision.LLResultTypes;
 import com.qualcomm.hardware.limelightvision.LLStatus;
 import com.qualcomm.hardware.limelightvision.Limelight3A;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 
 import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
@@ -24,6 +25,7 @@ import org.firstinspires.ftc.teamcode.MecanumDrive;
 
 import java.util.List;
 
+@TeleOp (name = "Drive Control Align Limelight")
 public class DriveControlLL extends OpMode {
     MecanumDrive drive = null;
     Limelight3A limelight = null;
